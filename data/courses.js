@@ -5,78 +5,42 @@ El uso, modificación, distribución o copia no autorizada de este código o est
 export const coursesData = [
     {
         "ciclo": "I",
-        "codigo": "1107",
-        "nombre": "ACTIVIDADES ORATORIA ,TEATRO Y GIMNASIA",
+        "codigo": "ISEG105 (PLAN 2023)",
+        "nombre": "ACTIVIDADES CULTURALES",
         "creditos": 0,
         "secciones": [
             {
-                "id": "01A",
-                "docente": "PUELLES CACHO LEONCIO",
+                "id": "01S",
+                "docente": "POR DESIGNAR PROFESOR",
                 "clases": [
                     {
                         "dia": "Lun",
                         "hora": "08:00 a 09:40",
-                        "aula": "FCA2A02",
+                        "aula": "FIIS4A05",
                         "tipo": "T"
                     },
                     {
-                        "dia": "Vie",
-                        "hora": "08:00 a 09:40",
-                        "aula": "FCA2A02",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "02A",
-                "docente": "PUELLES CACHO LEONCIO",
-                "clases": [
-                    {
-                        "dia": "Mié",
-                        "hora": "08:00 a 09:40",
-                        "aula": "FCA2A03",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
+                        "dia": "Lun",
                         "hora": "09:40 a 11:20",
-                        "aula": "FCA2A03",
+                        "aula": "FIIS4A05",
                         "tipo": "P"
                     }
                 ]
             },
             {
-                "id": "05A",
-                "docente": "PUELLES CACHO LEONCIO",
+                "id": "02S",
+                "docente": "POR DESIGNAR PROFESOR",
                 "clases": [
                     {
-                        "dia": "Mié",
-                        "hora": "14:40 a 16:20",
-                        "aula": "FCA3A07",
+                        "dia": "Sab",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FIIS1A02",
                         "tipo": "T"
                     },
                     {
-                        "dia": "Jue",
-                        "hora": "13:00 a 14:40",
-                        "aula": "FCA3A07",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "06A",
-                "docente": "PUELLES CACHO LEONCIO",
-                "clases": [
-                    {
-                        "dia": "Mié",
-                        "hora": "16:20 a 18:00",
-                        "aula": "FCA1T01",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Jue",
-                        "hora": "14:40 a 16:20",
-                        "aula": "FCA3A08",
+                        "dia": "Sab",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FIIS1A02",
                         "tipo": "P"
                     }
                 ]
@@ -85,318 +49,144 @@ export const coursesData = [
     },
     {
         "ciclo": "I",
-        "codigo": "1106",
-        "nombre": "ÉTICA, CIUDADANÍA Y DEONTOLOGÍA",
+        "codigo": "ISEG101 (PLAN 2023)",
+        "nombre": "CÁLCULO I",
         "creditos": 0,
         "secciones": [
             {
-                "id": "01A",
-                "docente": "CHAVEZ SUAREZ ANA MARIA",
+                "id": "01S",
+                "docente": "POR DESIGNAR PROFESOR",
                 "clases": [
                     {
-                        "dia": "Mié",
-                        "hora": "08:00 a 09:40",
-                        "aula": "FCA2A02",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Mié",
-                        "hora": "09:40 a 11:20",
-                        "aula": "FCA2A02",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "02A",
-                "docente": "PINCHI UGARTE ENRIQUE",
-                "clases": [
-                    {
-                        "dia": "Jue",
-                        "hora": "09:40 a 11:20",
-                        "aula": "FCA2A03",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Jue",
-                        "hora": "11:20 a 13:00",
-                        "aula": "FCA2A03",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "05A",
-                "docente": "PINCHI UGARTE ENRIQUE",
-                "clases": [
-                    {
-                        "dia": "Lun",
-                        "hora": "13:00 a 14:40",
-                        "aula": "FCA3A07",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Lun",
-                        "hora": "14:40 a 16:20",
-                        "aula": "FCA3A07",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "06A",
-                "docente": "PINCHI UGARTE ENRIQUE",
-                "clases": [
-                    {
-                        "dia": "Jue",
-                        "hora": "16:20 a 18:00",
-                        "aula": "FCA3A08",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
-                        "hora": "16:20 a 18:00",
-                        "aula": "FCA3A08",
-                        "tipo": "P"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "ciclo": "I",
-        "codigo": "1101",
-        "nombre": "FUNDAMENTOS DE LAS CIENCIAS ADMINISTRATIVAS",
-        "creditos": 0,
-        "secciones": [
-            {
-                "id": "01A",
-                "docente": "HUAMAN MEJIA MARIA CELINA",
-                "clases": [
-                    {
-                        "dia": "Jue",
-                        "hora": "08:00 a 09:40",
-                        "aula": "FCA2A02",
+                        "dia": "Mar",
+                        "hora": "08:00 a 10:30",
+                        "aula": "FIIS4A05",
                         "tipo": "T"
                     },
                     {
                         "dia": "Mar",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FIIS4A05",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02S",
+                "docente": "POR DESIGNAR PROFESOR",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 10:30",
+                        "aula": "FIIS1A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FIIS1A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "ISEG103 (PLAN 2023)",
+        "nombre": "ECONOMÍA DE LA EMPRESA",
+        "creditos": 0,
+        "secciones": [
+            {
+                "id": "01S",
+                "docente": "ZAPATA VILLAR LOYO PEPE",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FIIS1A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "13:50 a 15:30",
+                        "aula": "FIIS1A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "ISEG104 (PLAN 2023)",
+        "nombre": "IDIOMA I",
+        "creditos": 0,
+        "secciones": [
+            {
+                "id": "01S",
+                "docente": "GARAY TORRES JOSE MARCELINO",
+                "clases": [
+                    {
+                        "dia": "Jue",
                         "hora": "08:00 a 11:20",
-                        "aula": "FCA2A02",
+                        "aula": "FIIS4A05",
                         "tipo": "P"
-                    }
+                    },
                 ]
             },
             {
-                "id": "02A",
-                "docente": "HUARCAYA GODOY MADISON",
+                "id": "02S",
+                "docente": "GARAY TORRES JOSE MARCELINO",
                 "clases": [
                     {
-                        "dia": "Mar",
-                        "hora": "11:20 a 13:00",
-                        "aula": "FCA2A03",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Mié",
-                        "hora": "09:40 a 13:00",
-                        "aula": "FCA2A03",
+                        "dia": "Lun",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FIIS1A02",
                         "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "05A",
-                "docente": "HUARCAYA GODOY MADISON",
-                "clases": [
-                    {
-                        "dia": "Mié",
-                        "hora": "13:00 a 14:40",
-                        "aula": "FCA3A07",
-                        "tipo": "T"
                     },
-                    {
-                        "dia": "Mar",
-                        "hora": "13:00 a 16:20",
-                        "aula": "FCA3A07",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "06A",
-                "docente": "POR DESIGNAR PROFESOR",
-                "clases": [
-                    {
-                        "dia": "Mar",
-                        "hora": "13:00 a 14:40",
-                        "aula": "FCA3A08",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Mié",
-                        "hora": "13:00 a 16:20",
-                        "aula": "FCA3A08",
-                        "tipo": "P"
-                    }
                 ]
             }
         ]
     },
     {
         "ciclo": "I",
-        "codigo": "1105",
-        "nombre": "HERRAMIENTAS INFORMÁTICAS",
+        "codigo": "ISEG102 (PLAN 2023)",
+        "nombre": "MATEMÁTICA BÁSICA",
         "creditos": 0,
         "secciones": [
             {
-                "id": "01A",
+                "id": "01S",
                 "docente": "POR DESIGNAR PROFESOR",
                 "clases": [
                     {
                         "dia": "Mié",
-                        "hora": "11:20 a 13:00",
-                        "aula": "SL01LA01",
+                        "hora": "08:00 a 10:30",
+                        "aula": "FIIS4A05",
                         "tipo": "T"
                     },
                     {
-                        "dia": "Vie",
-                        "hora": "11:20 a 13:00",
-                        "aula": "SL01LA01",
+                        "dia": "Mié",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FIIS4A05",
                         "tipo": "P"
                     }
                 ]
             },
             {
-                "id": "02A",
+                "id": "02S",
                 "docente": "POR DESIGNAR PROFESOR",
                 "clases": [
                     {
                         "dia": "Jue",
-                        "hora": "08:00 a 09:40",
-                        "aula": "SL01LA01",
+                        "hora": "08:00 a 10:30",
+                        "aula": "FIIS3A03",
                         "tipo": "T"
                     },
-                    {
-                        "dia": "Vie",
-                        "hora": "08:00 a 09:40",
-                        "aula": "SL01LA01",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "05A",
-                "docente": "POR DESIGNAR PROFESOR",
-                "clases": [
                     {
                         "dia": "Jue",
-                        "hora": "16:20 a 18:00",
-                        "aula": "SL01LA02",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
-                        "hora": "16:20 a 18:00",
-                        "aula": "SL01LA02",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "06A",
-                "docente": "POR DESIGNAR PROFESOR",
-                "clases": [
-                    {
-                        "dia": "Mar",
-                        "hora": "14:40 a 16:20",
-                        "aula": "SL01LA01",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Mar",
-                        "hora": "16:20 a 18:00",
-                        "aula": "SL01LA01",
-                        "tipo": "P"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "ciclo": "I",
-        "codigo": "1104",
-        "nombre": "LENGUAJE",
-        "creditos": 0,
-        "secciones": [
-            {
-                "id": "01A",
-                "docente": "PLASENCIA ALVA MAIBI ANA",
-                "clases": [
-                    {
-                        "dia": "Lun",
-                        "hora": "09:40 a 11:20",
-                        "aula": "FCA2A02",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
-                        "hora": "09:40 a 11:20",
-                        "aula": "FCA2A02",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "02A",
-                "docente": "PLASENCIA ALVA MAIBI ANA",
-                "clases": [
-                    {
-                        "dia": "Lun",
-                        "hora": "11:20 a 13:00",
-                        "aula": "FCA2A03",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
-                        "hora": "11:20 a 13:00",
-                        "aula": "FCA2A03",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "05A",
-                "docente": "PLASENCIA ALVA MAIBI ANA",
-                "clases": [
-                    {
-                        "dia": "Lun",
-                        "hora": "16:20 a 18:00",
-                        "aula": "FCA3A07",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
-                        "hora": "13:00 a 14:40",
-                        "aula": "FCA3A07",
-                        "tipo": "P"
-                    }
-                ]
-            },
-            {
-                "id": "06A",
-                "docente": "PLASENCIA ALVA MAIBI ANA",
-                "clases": [
-                    {
-                        "dia": "Lun",
-                        "hora": "13:00 a 14:40",
-                        "aula": "FCA3A08",
-                        "tipo": "T"
-                    },
-                    {
-                        "dia": "Vie",
-                        "hora": "14:40 a 16:20",
-                        "aula": "FCA3A08",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FIIS3A03",
                         "tipo": "P"
                     }
                 ]
